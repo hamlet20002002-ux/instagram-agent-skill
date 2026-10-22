@@ -49,7 +49,7 @@ of the point of `/ig-reel` and `/ig-human`, but the rest works.
 Then spend ten minutes on `templates/voice.md`. Copy it to
 `.claude/instagram/voice.md` in your project (or `~/.claude/instagram/voice.md`
 to share it across projects) and fill it in, or send Claude three of your own
-reels and say "write my voice.md from these". Every skill reads that file. It
+reels and say "write my voice.md from these". Every skill that writes copy reads that file. It
 matters more here than on other platforms, because you have to say the words
 out loud.
 

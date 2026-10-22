@@ -17,6 +17,15 @@ the first time, so slide two has to stand on its own as well.
 The format rewards one idea broken into steps. It punishes a caption cut into
 pieces.
 
+## Read the voice file first
+
+Read `voice.md` from the project's `.claude/instagram/` folder, or from
+`~/.claude/instagram/` if the project has none. It holds how the user talks,
+who they are talking to, the words they never use, the topics and claims that
+are off limits, and the only numbers they will put their name on. Write in that
+voice, keep out of everything it rules out, and leave `{{your number}}` wherever
+it has no proof. If the file does not exist, say so once and carry on.
+
 ## When to use it instead of a Reel
 
 Use a carousel when the idea has **sequence and needs to be re-read**: steps, a

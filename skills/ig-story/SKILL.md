@@ -18,6 +18,15 @@ a conversation in one move.
 Nobody outside your followers sees these, so the job is completely different:
 depth, not reach.
 
+## Read the voice file first
+
+Read `voice.md` from the project's `.claude/instagram/` folder, or from
+`~/.claude/instagram/` if the project has none. It holds how the user talks,
+who they are talking to, the words they never use, the topics and claims that
+are off limits, and the only numbers they will put their name on. Write in that
+voice, keep out of everything it rules out, and leave `{{your number}}` wherever
+it has no proof. If the file does not exist, say so once and carry on.
+
 ## The daily shape
 
 Three to seven frames a day. Beyond about seven, the tap-forward rate climbs

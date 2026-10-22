@@ -17,6 +17,15 @@ most underused move on the platform.
 But the value is not equal across comments, so this skill sorts before it
 writes.
 
+## Read the voice file first
+
+Read `voice.md` from the project's `.claude/instagram/` folder, or from
+`~/.claude/instagram/` if the project has none. It holds how the user talks,
+who they are talking to, the words they never use, the topics and claims that
+are off limits, and the only numbers they will put their name on. Write in that
+voice, keep out of everything it rules out, and leave `{{your number}}` wherever
+it has no proof. If the file does not exist, say so once and carry on.
+
 ## Input
 
 The user pastes the comments, ideally with handles. Screenshots are fine. Do

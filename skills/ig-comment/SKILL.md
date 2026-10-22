@@ -18,6 +18,15 @@ A generic comment is worse than none. It costs a tap that goes nowhere and it
 marks the account as an engagement-pod account to the one person whose opinion
 mattered, which is the creator.
 
+## Read the voice file first
+
+Read `voice.md` from the project's `.claude/instagram/` folder, or from
+`~/.claude/instagram/` if the project has none. It holds how the user talks,
+who they are talking to, the words they never use, the topics and claims that
+are off limits, and the only numbers they will put their name on. Write in that
+voice, keep out of everything it rules out, and leave `{{your number}}` wherever
+it has no proof. If the file does not exist, say so once and carry on.
+
 ## Input
 
 The user pastes the post or reel text, or a screenshot, with the account name.

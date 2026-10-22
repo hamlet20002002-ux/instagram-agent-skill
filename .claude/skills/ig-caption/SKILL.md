@@ -21,6 +21,15 @@ It prints the caption the way the feed prints it: the first 125 characters in a
 box, everything else behind the tap. Read that box before you read anything
 else you wrote.
 
+## Read the voice file first
+
+Read `voice.md` from the project's `.claude/instagram/` folder, or from
+`~/.claude/instagram/` if the project has none. It holds how the user talks,
+who they are talking to, the words they never use, the topics and claims that
+are off limits, and the only numbers they will put their name on. Write in that
+voice, keep out of everything it rules out, and leave `{{your number}}` wherever
+it has no proof. If the file does not exist, say so once and carry on.
+
 ## First, decide which job this caption has
 
 This is the decision that ruins captions when it is skipped.

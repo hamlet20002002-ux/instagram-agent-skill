@@ -82,7 +82,8 @@ Post the first. It concedes something and it has a number in it.
 
 For an engagement round, ask for the 5 to 10 posts as pasted text in one
 message, return one comment each in a single block, and keep a running note in
-`~/.claude/instagram/log.md` of who has been commented on this week.
+`log.md` of who has been commented on this week, in the project's
+`.claude/instagram/` folder (or `~/.claude/instagram/` if the project has none).
 Commenting on the same three accounts every day is visible and it looks like
 exactly what it is.
 

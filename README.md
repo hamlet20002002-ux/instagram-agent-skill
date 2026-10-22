@@ -47,7 +47,8 @@ of a chat and it runs as a mode. You lose the five Python tools, which is most
 of the point of `/ig-reel` and `/ig-human`, but the rest works.
 
 Then spend ten minutes on `templates/voice.md`. Copy it to
-`~/.claude/instagram/voice.md` and fill it in, or send Claude three of your own
+`.claude/instagram/voice.md` in your project (or `~/.claude/instagram/voice.md`
+to share it across projects) and fill it in, or send Claude three of your own
 reels and say "write my voice.md from these". Every skill reads that file. It
 matters more here than on other platforms, because you have to say the words
 out loud.
@@ -199,7 +200,7 @@ After `humanize.py`, with the flagged structures still unrewritten:
 ### The swipe file
 
 ```bash
-python3 swipe.py captured.tsv --out ~/.claude/instagram/swipe.md
+python3 swipe.py captured.tsv --out <project>/.claude/instagram/swipe.md
 ```
 
 Raw views are not evidence. A 2,000,000-follower account doing 400,000 views

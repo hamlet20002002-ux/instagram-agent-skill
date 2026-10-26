@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .venv/
 *.tmp
+
+# graphify build internals (regenerated on every build)
+graphify-out/*
+!graphify-out/GRAPH_REPORT.md
+!graphify-out/graph.json
+!graphify-out/graph.html
